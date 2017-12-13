@@ -24,13 +24,13 @@ public class postTest {
 		  //to insert email in the email field
 		  WebElement email = driver.findElement(By.name("email"));
 		     email.clear();
-		     email.sendKeys("ademolabhadmus@hotmail.com");
+		     email.sendKeys("a********s@hotmail.com");
 		     
 		     
 		     //To insert password in the passowrd field
 		     WebElement password = driver.findElement(By.name("pass"));
 		     password.clear();
-		     password.sendKeys("incorrect");
+		     password.sendKeys("********");
 		     
 		     //To log in 
 		     WebElement loginbutton = driver.findElement(By.id("loginbutton"));
